@@ -1,0 +1,33 @@
+body{
+    border: 2px solid black;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    background-color: rgb(173, 154, 129);
+    text-align:center;
+    background-image: url("C:/Users/Atharva Selokar/Pictures/home.jpg")
+}
+button{
+    padding:10px;
+    color: rgb(228, 106, 35);
+    font-size: larger;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+input{
+    padding: 15px;
+    width: 50%;
+    border:50px;
+    box-sizing: border-box;
+    font-size: large;
+}
+button:hover{
+    color: rgb(203, 110, 38);
+    font-size:xx-large;
+    font-weight: 300;
+    background-color: rgb(118, 215, 134);
+}
+h2{
+    color: rgb(25, 26, 23);
+}

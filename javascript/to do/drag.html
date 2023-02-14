@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Drag</title>
+    <link rel="stylesheet" href="drag.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://kit.fontawesome.com/67c66657c7.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+</head>
+
+<body>
+
+    <div class="dragbox">
+         <div class="container">
+
+        <input id="inputField" type="text" placeholder="Enter items">
+        <button id=addToDo>Add Items</button>
+        </div>
+        <div class="listitem">
+            <div class="text">This is 1st item </div>
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="listitem">
+            <div class="text">This is 2nd item </div>
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="listitem">
+            <div class="text">This is 3rd item </div>
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="listitem">
+            <div class="text">This is 4th item </div>
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <script>
+        var dragbox = document.querySelector(".dragbox")
+        new Sortable(dragbox, {
+            Animation: 400
+        })  
+    </script>
+
+</body>
+
+</html>

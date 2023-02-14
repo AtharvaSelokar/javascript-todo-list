@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(158, 164, 145);
+    align-items: center;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 20px;
+    background-image: url("C:/Users/Atharva Selokar/Pictures/home.jpg");
+    
+}
+button{
+    padding: 20px;
+    text-decoration: dotted;
+    width: 130px;
+    color: rgb(29, 26, 22);
+    background-color: aqua;
+    border: 2px solid gray;
+    border-color: rgb(25, 24, 24);
+    border-radius: 20px;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif
+}
+input{
+    padding: 10px;
+    width:20%
+}
+button:hover{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 10ch;
+    background-color: aquamarine    ;
+}

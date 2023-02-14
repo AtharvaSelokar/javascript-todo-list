@@ -1,0 +1,50 @@
+body {
+    color: aliceblue;
+    text-align: center;
+    font-display: 15;
+    font-size: 25px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: black;
+    background-color: rgb(157, 79, 168);
+    padding:50px;
+    height: 200px;  
+    background-image: url("C:/Users/Atharva Selokar/Pictures/home.jpg");
+  }
+  .container{
+   width: 1400px;
+   height: 100px;
+   background-color: rgba(75, 65, 65, 0);
+   animation-name: example;
+   
+}
+button{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px;
+    border-radius: 10;
+    background-color: rgb(133, 206, 78);
+    color: rgb(14, 11, 11);
+    border-radius:%;
+  }
+  button:hover{
+    background-color: rgb(67, 120, 14);
+  }
+  input {
+    margin: 0;
+    border: 220;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    font-size: large;
+    width: 50   ;
+   
+  }
+  
+.next{
+  color: antiquewhite;
+  padding:150px;
+  box-sizing: border-box;
+  text-align: end; 
+}

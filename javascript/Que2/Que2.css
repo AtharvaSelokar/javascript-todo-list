@@ -1,0 +1,48 @@
+ /* Add some styling to the page */
+ body {
+    background-image:url("C:/Users/Atharva Selokar/Pictures/home.jpg");
+    background-color: rgb(112, 131, 138);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+    border: 6px solid rgb(28, 33, 30);
+    border-radius: 50px;
+    border-style:groove;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+  .container{
+   
+  }
+  input  {
+    font-size: larger;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    height: 10px;
+
+  }
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    font: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .next{
+    color: antiquewhite;
+    padding:150px;
+    box-sizing: border-box;
+    text-align: end;
+    
+  } .previous{
+    color: antiquewhite;
+    padding:1px;
+   
+    text-align:right; 
+  } 
+  

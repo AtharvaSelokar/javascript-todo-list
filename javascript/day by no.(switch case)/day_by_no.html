@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  <body>
+    <p><h1>Enter the value:</h1><input type="number" id="num"></p>
+    <button onclick="hhh()">Enter</button>
+    <p id="result"></p>
+    <script>
+      function hhh()  {
+      var day= parseInt(document.getElementById("num").value) ;
+      switch(day){
+            case 0:
+               a=("today is monday");
+            break;
+            case 1:
+               a=("today is tuesday");
+            break;
+            case 2:
+               a=("today is wednesday");
+            break;
+            case 3:
+               a=("today is thursday");
+            break;
+            case 4: 
+               a=("today is friday");
+            break;
+            case 5:
+               a=("today is saturday");
+            break;
+            case 6: 
+               a=("today is sunday");
+            break;
+            default:
+               a=("enter valid number")
+               
+    
+        }
+        document.getElementById("result").innerHTML = a;
+    }
+        
+    </script>
+</body>
+</html>

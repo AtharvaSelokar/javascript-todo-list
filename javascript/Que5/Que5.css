@@ -1,0 +1,41 @@
+body{
+ background-size: cover;
+   width: 350px;
+   height: 400px;
+   background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    background-color: antiquewhite;
+    background-image:url("C:/Users/Atharva Selokar/Pictures/home.jpg")
+    
+}
+.header{
+    padding: 20%;
+}
+button{
+    padding: 15px;
+    color: black;
+    background-color: rgb(154, 187, 197);
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+input{
+    padding: 12px;
+    width: 50ch;
+    font-size: large;
+  
+}
+button:hover{
+    color: rgb(203, 110, 38);
+    font-size: large;
+    font-weight: 300;
+    background-color: rgb(118, 215, 134);
+    font-weight: bolder;
+}
+label{
+    padding: 10%;
+}

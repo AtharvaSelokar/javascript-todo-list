@@ -1,0 +1,68 @@
+body{
+    padding: 30px;
+    font-size: large;
+    font-family:cursive;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: antiquewhite;
+    background-image: url("C:/Users/Atharva Selokar/Pictures/new.jpg");
+    
+    
+}
+.container{
+    padding: 2%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+input{
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1%;
+    width:50%;
+    height:50px;
+    font-size: x-large;
+
+}
+button{
+    padding: 10px;
+    font-size: large;
+    background: #dae3c2;
+    color: rgb(32, 25, 25);
+    float:inline-start;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+    font-family: ;
+}
+
+.to-dos{
+   /* position: absolute;
+    top:50%;
+    left:45%;
+    transform: translate(-50%,-50%);*/
+    background-color: rgba(223, 178, 178, 0.037);
+    text-align: left;
+    width: 800px;
+    font-size:x-large;
+    margin-left: 280px;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius:2px;
+}
+.p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+.pp{
+    font-size: x-large;
+}

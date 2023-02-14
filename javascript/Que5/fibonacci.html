@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+    <script>
+        // program to display fibonacci sequence using recursion
+        function fibo() {
+            var num = parseInt(document.getElementById("seq").value);
+
+
+            
+                function fibonacci(num) {
+                    if (num < 2) {
+                        return num;
+                    }
+                    else {
+                        return fibonacci(num - 1) + fibonacci(num - 2);
+                    }
+                }
+
+                // take nth term input from the user
+
+                if (num <= 0) {
+                    alert("Enter a positive integer.")
+                }
+                else {
+                    for (let i = 0; i < num; i++) {
+                        document.getElementById("result").innerHTML=document.getElementById("result").innerHTML + fibonacci(i) + "<br>";
+                    }
+                }
+            }
+        
+    </script>
+</head>
+
+<body>
+
+
+    <marquee direction="down" width="300" height="150" behavior="alternate" style="border:solid">
+        <marquee behavior="alternate">
+            <h1> <b>Fibonacci series</h1></b>
+        </marquee>
+    </marquee>
+
+    <h2>Enter the Number :</h2>
+    <input id="seq"><br>
+    <br><button onclick="fibo()">submit</button>
+    <p id="result"></p>
+    <h2>
+        
+
+</body>
+
+</html>

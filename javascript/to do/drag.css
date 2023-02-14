@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@200&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content:center;
+    background-color:bisque
+}
+.dragbox{
+    width: 100%;
+    height: ;
+    max-width: 350px;
+    background: #84c641;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px;
+}
+.dragbox .listitem{
+    width:100%;
+    background: linear-gradient(30deg,rgb(108, 103, 103),rgb(47, 159, 197));
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+}

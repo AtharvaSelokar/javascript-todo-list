@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function fib(){
+// take nth term input from the user
+const nTerms = parseInt(document.getElementById("input").value);
+
+// program to display fibonacci sequence using recursion
+function fibonacci(num) {
+    if(num < 2) {
+        return num;
+    }
+    else {
+        return fibonacci(num-1) + fibonacci(num - 2);
+    }
+}
+
+
+
+if(nTerms <=0) {
+    alert('Enter a positive integer.');
+}
+else {
+    for(let i = 0; i < nTerms; i++) {
+      document.getElementById("res").innerHTML=document.getElementById("res").innerHTML+fibonacci(i)+"<br>";
+    }
+}
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <input id="input">
+    <button onclick="fib()">Submit</button>
+    <p id="res"></p>
+</body>
+</html>

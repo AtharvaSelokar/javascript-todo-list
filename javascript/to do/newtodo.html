@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="newtodo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And drop</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="newtodo.js"></script>
+
+    <div class="wrapper">
+        <div class="item">
+            <span class="text">Dragable Element One</span>
+            <i class="fas fa-bars"></i>
+        </div>
+    <div class="item">
+            <span class="text">Dragable Element Two</span>
+            <i class="fas fa-bars"></i>
+        </div>
+    <div class="item">
+            <span class="text">Dragable Element Three</span>
+            <i class="fas fa-bars"></i>
+        </div>
+    <div class="item">
+            <span class="text">Dragable Element Four</span>
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <script>
+        const DragArea = document.querySelector("wrapper");
+        new Sortable(DragArea, {
+            Animation: 350
+        });
+    </script>
+</body>
+
+</html>
